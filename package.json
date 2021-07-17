@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/goenka19/todolist/issues"
   },
-  "homepage": "https://github.com/goenka19/todolist#readme"
+  "homepage": "https://github.com/goenka19/todolist#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.2"
+  }
 }
