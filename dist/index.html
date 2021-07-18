@@ -6,21 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo-List</title>
     <script src="/src/index.js" defer> </script>
+    <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li>Gmail</li>
-            <li>Images</li>
-            <li>Sign In</li>
+    <nav class="navbar navbar-dark" id="nav-color">
+        <div class="container">
+          <ul class="nav justify-content-start">
+            <li class="navbar-brand nav-item" href="#">
+              <img src="/logo.png" class="d-inline-block align-text-top" alt="" width="24" height="24">       Todo-List
+            </li>
+          </ul>
+          <span>
+            <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link custom" href="#">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link custom" href="#">Our Brands</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link custom" href="#">Contact Us</a>
+          </li>
         </ul>
+        </span>    
+      </div>
     </nav>
-    <br><br>
-    <div class="container">
-        <div class="index">Hello there</div>
-        <div class="list">Today</div>
+
+    <!-- DIVIDINNG PAGE INTO COlUMNS-->
+    <div class="main-bg">
+    <div class="container right-fix">
+      <div class="row">
+        <div class="col-3">
+                <br>
+                <h4>All Lists</h4> <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa libero eum cum debitis neque ut molestiae necessitatibus consequuntur, facere nihil totam explicabo vitae, iusto delectus. Sapiente soluta delectus eum numquam!
+        </div>
+        <div class="col-1"></div>
+        <div class="col-8 right-side">
+                <br>
+              <h4>New List</h4> <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe molestias ut facilis provident iusto? Quia, praesentium cum quibusdam itaque dignissimos sed pariatur numquam earum suscipit molestiae id voluptas, voluptatum temporibus. 
+        </div>
     </div>
-    
+    </div>
 </body>
 </html>
