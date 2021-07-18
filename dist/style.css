@@ -10,4 +10,8 @@
 
 #nav-color {
     background-color: rgb(209, 53, 49);
- }
+}
+
+.left-col {
+    border-right: 1px solid grey;
+}
