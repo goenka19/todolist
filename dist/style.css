@@ -12,3 +12,10 @@
     background-color: rgb(209, 53, 49);
 }
 
+body {
+    background-color: lightgray;
+}
+
+.card-pad {
+    padding: 04%;
+}

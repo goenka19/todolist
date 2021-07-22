@@ -13,7 +13,7 @@ function deletegrid(container)
 const button  = document.querySelector('.submit');
 button.addEventListener('click', ()=> {
     const task = document.querySelector('#floatingInput').value;
-    var new_task = document.createElement('h2');
+    var new_task = document.createElement('p');
     new_task.textContent = task;
     console.log(new_task)
     alltasksdiv.append(new_task);
