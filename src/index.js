@@ -22,3 +22,11 @@ button.addEventListener('click', ()=> {
 
 
 console.log(button);
+
+const card_body = document.querySelector('.card-body');
+const new_list = document.querySelector('.new_list');
+new_list.addEventListener('click', ()=> {
+    const new_div = document.createElement('div');
+    new_div.classList.add('form-floating mb-3');
+    card_body.appendChild(new_div);
+})
